@@ -1,0 +1,166 @@
+@font-face {
+	font-family: "KaushanScript-Regular";
+	src: url("Fonts/KaushanScript-Regular.otf") format("otf"); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NanumGothic"; src: url("Fonts/NanumGothic.ttf") format("ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: "KaushanScript-Regualr", "NanumGothic";
+	box-sizing: border-box;
+	color: #777;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul { margin: 0; }
+.nav li { display: inline; }
+
+.nav a {
+	display: inline-block;
+	padding: 0.5em;
+	color: white;
+	text-decoration: none;
+}
+
+.main-nav {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li { padding: 0 5%; }
+.nav a:hover { background-color: rgba(255, 255, 255, 0.3); }
+
+.main-header {
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: url("Images/header.jpg");
+	background-blend-mode: multiply;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+
+.title {
+	text-align: center;
+	margin: 40px;
+	font-size: 4em;
+	font-weight: normal;
+	color: white;
+}
+
+.content-section { padding-bottom: 40px; }
+
+.container {
+	text-align: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.section-header {
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	font-size: 2.5em;
+	margin: 1em;
+}
+
+.about-band-image {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin: 15px;
+	border-radius: 50%;
+}
+
+.filebox {
+	display: inline-block;
+	margin: 10px;
+}
+.filebox input[type="file"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0,0,0,0);
+}
+
+.main-footer {
+	background-color: grey;
+	color: white;
+	padding: 0;
+}
+
+.main-footer-container {
+	display: flex;
+	align-items: center;
+}
+
+.main-footer-container ul {
+	flex-grow: 1;
+	text-align: end;
+}
+
+.team-name {
+	text-align: center;
+	font-size: 2em;
+	font-weight: normal;
+	color: white;
+}
+
+.footer-nav li {
+	padding: 0 0.5em;
+}
+
+.footer-nav img {
+	width: 100px;
+	height: 100px;
+}
+
+.btn {
+	padding: 0.65em;
+	cursor: pointer;
+}
+
+.btn-header {
+	margin: 0.5em 15% 2em 15%;
+	color: white;
+	border: 2px solid darkgrey;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 0;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.btn-header:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-primary {
+	color: white;
+	background-color: darkgrey;
+	border: none;
+	border-radius: 0.3em;
+	font-weight: bold;
+}
+
+.upload-btn {
+	padding: 15px;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 10px;
+}
