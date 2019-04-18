@@ -34,7 +34,7 @@
 				<form enctype="multipart/form-data" action="upload_ok.php" method="post">
 					<label class="btn-primary upload-btn" for="ex_file">그림 선택</label>
 					<input type="file" name="myfile[]" multiple="multiple" id="ex_file">
-					<input class="upload-btn btn-primary" type="submit" value="그림 업로드">
+					<input class="upload-btn btn-primary" type="submit" value="그림 업로드"></form>
 				<button class="upload-btn btn-primary" onclick="location.href='./result_exec.php'">결과 보기</button>
 			</span>
         </section>
