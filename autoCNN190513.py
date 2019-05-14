@@ -116,8 +116,11 @@ for i in range(0, tries):
             result["N-p"] += 1;
         elif str_label == "Negative" and title.split("_")[0] == "negative":
             result["N-n"] += 1;
+        y.imshow(img)
+        plt.title(str_label + ", " + title)
+        y.axes.get_xaxis().set_visible(False)
+        y.axes.get_yaxis().set_visible(False)
 
-        
     accuracy = (result["P-p"]+result["N-n"])/(result["P-p"]+result["P-n"]+result["N-p"]+result["N-n"])
     # Accuracy = Pp+Np/Pp+Pn+Np+Nn 정확도(n을 N이라고, p를 P라고 예상한 총확률. 0.8 이상이 좋다.
 
