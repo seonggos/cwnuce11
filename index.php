@@ -30,8 +30,8 @@
 	<section class="content-section container">
 			<h2 class="section-header">ABOUT</h2>
 			<img class="about-band-image" src="Images/index_drawing.jpg">
-			<p>유아의 그림일기에는 작성자의 일상과 감정이 고스란히 담긴다. 때문에 이 작품을 분석하는 것은 작성자의 심리상태를 진단하는 데 큰 도움이 될 수 있다. 이 프로그램은 초등학생의 그림일기를 바탕으로 딥러닝 기법을 이용해 그림을 분석, 정신적으로 불안정하거나 도움이 필요한 아이를 분류해내는 것을 목표로 한다. 결과적으로 프로그램을 통해 발견된 아이는 심리상담 전문가에게 연결되어 치료를 받을 수 있도록 도울 수 있다.</p><br>
-			<p>In the picture diary of the children, the essence and the emotion of the writer are intact. Diagnosing the author's psychological state is a great help. This program analyzes elementary school students' pictures and helps to classify them based on scientific evidence. As a result, when the program was found, the connection was broken when it was disconnected. Google translated.</p>
+			<p>한국에서 정신적 질병은 신체적 질병과 다르게 기피의 대상이 되며, 검사를 받기 쉽지 않습니다. 이는 감정 표현에 서툰 아이들의 경우에도 마찬가지입니다. 이 프로젝트에서는 딥러닝을 통해 아동이 그림일기에 표현한 부정적 감정 및 심리를 읽어내는 것을 목표로 합니다. 프로그램을 통해 부정적인 심리가 많이 나타난 아이는 심리상담 전문가에게 연결하여 치료를 받을 수 있도록 돕습니다.</p><br>
+			<p>In Korea, we tend to cover up mental illness unlike physical illness and it's not easy to be examined. This is true for children who tends to not properly express their emotions. This project ains to read negative emotions and feelings expressed by children in their drawing diary through deep learning. Finally we will help children who need help by connecting them psychological counseling specialist to get treatment.</p>
 			<br><br>
 	</section>
 	<footer class="main-footer">

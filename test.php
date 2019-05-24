@@ -28,14 +28,14 @@
         <section class="container content-section">
 			<h2 class="section-header">TEST</h2>
       		<img src="Images/test_drawing.png" style="width: 720px; margin-bottom: 30px;">
-      		<p>그림일기를 분석하려면 그림일기를 촬영해서 이미지를 업로드 해주세요. 업로드만으로 빠르게 결과를 알려줍니다.</p>
-      		<p>To analyze the picture diary, please take a picture diary and upload the image. Upload results quickly. Google translated.</p>
+      		<p>심리를 분석하려면 그림에서 사람을 그린 부분의 이미지를 촬영해서 업로드 해주세요. 업로드만으로 빠르게 결과를 알려줍니다.</p>
+      		<p>To test drawings, take a picture of a person from each drawings. Just upload the pics and the result will come out quickly. </p>
 			<span class="filebox">
 				<form enctype="multipart/form-data" action="upload_ok.php" method="post">
 					<label class="btn-primary upload-btn" for="ex_file">그림 선택</label>
 					<input type="file" name="myfile[]" multiple="multiple" id="ex_file">
-					<input class="upload-btn btn-primary" type="submit" value="그림 업로드"></form>
-				<button class="upload-btn btn-primary" onclick="location.href='./result_exec.php'">결과 보기</button>
+					<input class="btn-primary upload-btn" type="submit" value="그림 업로드">
+				  <input class="upload-btn btn-primary" type="button" onclick="location.href='./result_exec.php'" value="결과 보기"></form>
 			</span>
         </section>
 
